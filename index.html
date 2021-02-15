@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <title>CONGTEBE</title>
+  </head>
+  <body>
+    <header id="header">
+        <nav id="nav-bar">
+          <div class="logo-container">
+            <img src="./img/congtebe.jpg" alt="logo" id="header-img" />
+          </div>
+          <ul>
+            <li class="nav-link"><a href="#product-vid">Home</a></li>
+            <li class="nav-link"><a href="#product">Product</a></li>
+            <li class="nav-link"><a href="#reviews">Reviews</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <main>
+      <section id="product-vid">
+        <div class="video-wrapper">
+          <video autoplay muted loop id="video">
+            <source src="./kapitantanannan.mp4" type="video/mp4" />
+          </video>        
+        </div>
+      </section>
+
+      <section id="product">
+        <h1>Featuring</h1>
+        <div class="product-content">
+          <div class="product-wrapper">
+            <img class="tp-shirt" src="./img/kapitantanan.jpg" alt="tshirt" />
+          </div>
+
+          <div class="product-details">
+            <h2>KAPITANTANAN T-shirt</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Assumenda fugit eveniet saepe, dolor soluta natus vero unde rem
+              libero error repellat magnam. Rerum veritatis optio fuga
+              praesentium saepe, harum asperiores sunt, dolorem ullam provident
+              debitis modi. Voluptatem incidunt libero earum, doloribus fugit
+              ipsum, recusandae enim, consequuntur accusantium nulla officia ad.
+            </p>
+            <h2>799 Php</h2>
+            <button class="button">Place Order</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviews">
+        <h1>Product Reviews</h1>
+        <div class="comment">
+          <div class="comment-profile">
+            <img src="./img/person1.jpg" alt="profile1" />
+            <p class="name">Tim Dolounge</p>
+          </div>
+          <div class="comment-op">
+            <div class="date">
+              <p class="bold">Lorem, ipsum.</p>
+              <p class="lighter">15/02/21</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat,
+              omnis!
+            </p>
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="comment-profile">
+            <img src="./img/person2.jpg" alt="profile2" />
+            <p class="name">Jack Coole</p>
+          </div>
+          <div class="comment-op">
+            <div class="date">
+              <p class="bold">Lorem, ipsum.</p>
+              <p class="lighter">01/12/21</p>
+            </div>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat,
+              omnis!
+            </p>
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="comment-profile">
+            <img src="./img/person3.jpg" alt="profile3" />
+            <p class="name">Jack T. Teacole</p>
+          </div>
+          <div class="comment-op">
+            <div class="date">
+              <p class="bold">Lorem, ipsum.</p>
+              <p class="lighter">01/1/21</p>
+            </div>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat,
+              omnis!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="footer">
+        <form id="form">
+          <h1>Thank you for visiting</h1>
+          <p>Leave a review</p>
+          <div class="form-group">
+            <label for="email" id="email-label"
+              >Email
+              <input
+                id="email"
+                type="email"
+                name="email"
+                required
+              />
+            </label>
+          </div>
+        <div class="form-group">
+          <textarea
+            type="text"
+            placeholder="Enter your comments here..."
+          ></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" id="submit">Submit</button>
+        </div>
+      </form>
+      </section>
+    </main>
+  </body>
+</html>
