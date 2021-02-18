@@ -19,16 +19,18 @@ section {
 }
 /*Navigation*/
 #header {
-  margin: 0 auto;
-  max-width: 900px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 0.5rem 1rem;
+  font-family: "Anton", sans-serif;
+  background-color: white;
 }
 #nav-bar {
-  align-items: center;
-  padding: 0.5rem 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  font-family: "Anton", sans-serif;
+  justify-content: space-around;
+  align-items: center;
 }
 ul {
   list-style: none;
@@ -56,6 +58,7 @@ li {
 #video {
   width: 100%;
   height: 100%;
+  margin-top: 250px;
 }
 .product-content {
   display: flex;
@@ -116,10 +119,19 @@ button:hover {
   background-color: grey;
   color: white;
 }
-#submit {
+.btn:hover {
+  background-color: grey;
+  color: white;
+}
+.btn {
   max-width: 200px;
   width: 100%;
   align-items: center;
+  padding: 0.7rem;
+  background-color: white;
+  font-size: 1rem;
+  color: black;
+  border-radius: 5px;
 }
 .comment,
 .product-details {
@@ -129,5 +141,8 @@ button:hover {
   #nav-bar,
   .product-content {
     flex-direction: row;
+  }
+  #video {
+    margin-top: 150px;
   }
 }
